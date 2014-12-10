@@ -1,5 +1,5 @@
+#2014-12-10
 #first part
-#
 complete <- function(directory, id=1:332) {
   a = list.files(directory)
   filename<-paste(directory,"\\",a,sep="")
